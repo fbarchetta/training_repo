@@ -4,7 +4,7 @@
     <jobTemplate id="myapp">
       <streamingExecutable>/application/myapp/run</streamingExecutable>
       <defaultParameters>
-        <parameter id="parameter" title="Parameter sample" abstract="Example of parameter declaration" scope="test">value1</parameter>
+        <parameter id="parameter" title="Parameter sample" abstract="Example of parameter declaration" scope="runtime">value1</parameter>
       </defaultParameters>
       <defaultJobconf>
         <property id="mapred.task.timeout">9900000000</property>
